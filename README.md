@@ -1,10 +1,11 @@
 # Network Influence Analysis
 
+## Background
 Hosts the network visualizations for HW2, as part of a network analysis course (Dr. Teague Henry, UVA, Fall 2021).  Data came from Beveridge & Shan (2016), representing weighted social network of character co-occurrences in *A Storm of Swords.* Each node represented a character, and the edge weights represented the number of times the two nodes incident on the edge appeared within 15 words of each other.
 
+## Note
 Used igraph package in R for data analysis and Cytoscape for customized visualizations. Code not included in repository. 
-
-**Decisions regarding visualization style, layout, metric emphasis, and exploratory focus (particularly in the House-level network visualizations) were made independently, and data interpretations presented here reflect personal analytical judgement.**
+### Decisions regarding visualization style, layout, metric emphasis, and exploratory focus (particularly in the House-level network visualizations) were made independently, and data interpretations presented here reflect personal analytical judgement.
 
 ---
 
