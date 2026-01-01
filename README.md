@@ -1,34 +1,12 @@
-# Network Influence Analysis with *Network of Thrones*
+# Network Influence Analysis*
 
-This repository hosts the **visual outputs of a homework assignment** completed for a network analysis course taught by **Dr. Teague Henry** at the **University of Virginia** in **Fall 2021**.
+Hosts the network visualizations for HW2, as part of completed as part of a network analysis course (Dr. Teague Henry, UVA, Fall 2021). Used igraph package in R for data analysis and Cytoscape for customized visualizations. Code not included in repository. Data came from Beveridge & Shan (2016), representing weighted social network of character co-occurrences in *A Storm of Swords.* Each node represented a character, and the edge weights represented the number of times the two nodes incident on the edge appeared within 15 words of each other.
 
-The assignment focused on practicing the use of **igraph in R** to load, manipulate, and analyze network data, as well as using **Cytoscape** to create **publication-ready network visualizations**.
 
----
-
-## Assignment Overview
-
-The goal of this assignment was to analyze social networks derived from character interactions in *Game of Thrones*, with an emphasis on:
-
-- Constructing weighted, undirected networks
-- Computing and interpreting node- and network-level influence metrics
-- Examining how influence and connectivity vary across geographic regions
-- Aggregating character-level networks into House-level networks
-- Refining network layouts and aesthetics in Cytoscape
-
-This repository contains **visualizations only** (`.svg` files) generated as part of the analysis.
-
----
-
-## Data Source
-
-All analyses are based on the following published dataset:
-
+## References
 Beveridge, Andrew, and Jie Shan. 2016.  
 **“Network of Thrones.”** *Math Horizons* 23 (4): 18–22.  
 https://doi.org/10.4169/mathhorizons.23.4.18
-
-The dataset represents a weighted social network of character co-occurrences in *A Storm of Swords*, where edge weights correspond to the number of times two characters appear within 15 words of each other.
 
 ---
 
@@ -94,17 +72,4 @@ In these visualizations, edge width represents aggregated edge strength, while n
 - Essos-based and Dothraki groups are relatively isolated, each connecting primarily to the Queensguard, reflecting their geographic separation in the narrative.
 - Aggregated metrics reveal consistent House-level influence patterns across multiple definitions of connectivity.
 
----
 
-## Tools & Methods
-
-- **R (`igraph`)** for network construction and metric computation  
-- **Cytoscape** for layout optimization and publication-ready visualization  
-- Degree, strength, and ratio-based influence metrics  
-- Node aggregation to compare individual- and group-level network structure
-
----
-
-## Notes
-
-This repository serves as a **record of coursework and analytical outputs**. Although the dataset is literary in origin, the workflow mirrors applied approaches used in influence modeling, segmentation analysis, and network-based measurement.
