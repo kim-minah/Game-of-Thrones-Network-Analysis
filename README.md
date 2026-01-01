@@ -3,6 +3,7 @@
 Hosts the network visualizations for HW2, as part of a network analysis course (Dr. Teague Henry, UVA, Fall 2021).  Data came from Beveridge & Shan (2016), representing weighted social network of character co-occurrences in *A Storm of Swords.* Each node represented a character, and the edge weights represented the number of times the two nodes incident on the edge appeared within 15 words of each other.
 
 Used igraph package in R for data analysis and Cytoscape for customized visualizations. Code not included in repository. Decisions regarding visualization style, layout, metric emphasis, and exploratory focus (particularly in the House-level network visualizations) were made independently, and data interpretations presented here reflect personal analytical judgement. 
+
 ---
 
 ## Character-Level Network Visualizations
@@ -34,7 +35,7 @@ Node size represents degree, or the number of distinct neighbors a character has
 Node size represents degree strength ratio, capturing the average interaction frequency per connection (specifically, node strength is divided by node degree, with node strength being the sum of adjacent edge weights). Hodor has the highest ratio due to a small number of neighbors combined with strong edge weights, particularly with Bran. In contrast, Tyrion’s many connections result in a lower ratio despite high overall interaction volume. Compared to degree-based sizing, this visualization shows less geographic differentiation between Westeros- and Essos-based characters.
 
 ---
-**Summary:**  
+**Summary of Character-Level Network Visualizations:**  
 - Visualization 3 highlights characters with the widest range of influence.  
 - Visualization 4 highlights characters with the strongest relative interactions per connection (and also reminds us of Hodor's speech patterns)!
 
@@ -62,7 +63,7 @@ In these visualizations, edge width represents aggregated edge strength, while n
 
 ---
 
-**Observations:**  
+**Observations from House-Level Network Visualizations**  
 
 - The **Lannister and Stark Houses** emerge as the most influential, showing strong within-House cohesion and frequent interactions between Houses.
 - Essos-based and Dothraki groups are relatively isolated, each connecting primarily to the Queensguard, reflecting their geographic separation in the narrative.
